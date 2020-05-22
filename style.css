@@ -1,24 +1,30 @@
 body {
     margin: 0px;
-    
+
 }
 
 header {
-    padding: 10px;
+    padding: 20px;
     background-color: midnightblue;
     color: white;
     display: block;
+    font-size: 25px;
+
 }
 
 footer {
     display: flex;
     flex-wrap: wrap;
+
+
 }
 
 
 footer div {
     flex: 1;
-    
+    height: 265px;
+
+
 }
 
 .container-1 div {
@@ -60,7 +66,7 @@ img {
 .container-3 div {
     margin: 5px;
     flex: 1;
-    
+
 }
 
 .container-3 {
@@ -73,23 +79,36 @@ h5 {
     margin-bottom: 5px;
 }
 
-.box-10{
-    background-image: url(starter_files/images/donate.jpg);
+.box-10 {
+    margin: 5px;
+    width: 100%;
+    background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)),
+        url("starter_files/images/donate.jpg");
     background-size: cover;
-    height: 265px; 
+    opacity: 0.5;
+
+
+
 }
 
 .box-11 {
-    background-image: url(starter_files/images/volunteer.jpg);
+    margin: 5px;
+    width: 100%;
+    background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)),
+        url("starter_files/images/volunteer.jpg");
     background-size: cover;
-    height: 265px;
-    
+    opacity: 0.5;
+
 }
 
 .box-12 {
-    background-image: url(starter_files/images/location.png);
+    margin: 5px;
+    width: 100%;
+    background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)),
+        url("starter_files/images/location.png");
     background-size: cover;
-    height: 265px;
+    opacity: 0.5;
+
 }
 
 h3 {
@@ -98,10 +117,11 @@ h3 {
     height: 100%;
     width: 100%;
     text-align: center;
-    line-height: 133px;
+    line-height: 160px;
     font-size: 40px;
     text-decoration: none;
 }
+
 
 p {
     margin-left: 5px;
