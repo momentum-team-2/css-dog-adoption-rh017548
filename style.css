@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    
+}
+
+header {
+    padding: 10px;
+    background-color: midnightblue;
+    color: white;
+    display: block;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+footer div {
+    flex: 1;
+    
+}
+
+.container-1 div {
+    margin: 5px;
+    flex: 1;
+}
+
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+
+.tag {
+    background-color: rgba(89, 230, 216, 0.925);
+    border: none;
+    border-radius: 16px;
+    color: black;
+    margin: 2px;
+    text-align: center;
+}
+
+.container-2 div {
+    margin: 5px;
+    flex: 1;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-3 div {
+    margin: 5px;
+    flex: 1;
+    
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box-10{
+    background-image: url(starter_files/images/donate.jpg);
+    background-size: cover;
+    height: 265px; 
+}
+
+.box-11 {
+    background-image: url(starter_files/images/volunteer.jpg);
+    background-size: cover;
+    height: 265px;
+    
+}
+
+.box-12 {
+    background-image: url(starter_files/images/location.png);
+    background-size: cover;
+    height: 265px;
+}
+
+h3 {
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 133px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+p {
+    margin-left: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+h4 {
+    margin-left: 5px;
+}
